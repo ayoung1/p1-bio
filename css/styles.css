@@ -1,6 +1,61 @@
+
+/*delete above*/
+
 /* Your Website Styles */
+h1{
+	text-align: center;
+}
+
 body{
-	background: orange;
+	background: none;
+}
+
+ul{
+	list-style: none;
+}
+
+/*link stuff*/
+a{
+  
+}
+
+a:link,
+a:visited{
+  border: 4px double teal;
+  color:#fff;
+  background: red;
+  display: block;
+  
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+a:focus{
+  border: dotted 2px black;
+}
+
+/*ON STATE*/
+a:hover{
+	background: green;
+}
+
+a:active{
+  background: black;
+}
+/*link stuff*/
+
+.links{
+	text-align: center;
+}
+
+.layoutUl{
+	list-style: none;
+	border: solid black;
+}
+
+.container{
+
 }
 
 /* Show Grid */
