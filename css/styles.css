@@ -6,6 +6,10 @@ h1{
 	text-align: center;
 }
 
+h4{
+	text-align: center;
+}
+
 body{
 	background: none;
 }
@@ -21,10 +25,11 @@ a{
 
 a:link,
 a:visited{
-  border: 4px double teal;
-  color:#fff;
-  background: red;
+  border: 4px double none;
+  color: black;
+  background: none;
   display: block;
+  margin:25px 57px 0px 0px;
   
   height: 50px;
   line-height: 50px;
@@ -37,7 +42,7 @@ a:focus{
 
 /*ON STATE*/
 a:hover{
-	background: green;
+	color: blue;
 }
 
 a:active{
