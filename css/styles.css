@@ -25,11 +25,9 @@ a{
 
 a:link,
 a:visited{
-  border: 4px double none;
   color: black;
   background: none;
   display: block;
-  margin:25px 57px 0px 0px;
   
   height: 50px;
   line-height: 50px;
@@ -37,7 +35,7 @@ a:visited{
 }
 
 a:focus{
-  border: dotted 2px black;
+  
 }
 
 /*ON STATE*/
@@ -46,7 +44,7 @@ a:hover{
 }
 
 a:active{
-  background: black;
+
 }
 /*link stuff*/
 
@@ -57,6 +55,7 @@ a:active{
 .layoutUl{
 	list-style: none;
 	border: solid black;
+	margin: 5px 5px 5px 35px;
 }
 
 .container{
