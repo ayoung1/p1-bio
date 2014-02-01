@@ -11,57 +11,42 @@ h4{
 }
 
 body{
-	background: lightgrey;
+	background: beige;
 }
 
-ul{
-	list-style: none;
+#objlist{
+	padding: 0 0 0 15px;
 }
 
-/*link stuff*/
-a{
-  
+.headder{
+
 }
 
-a:link,
-a:visited{
-  color: black;
-  display: block;
-  text-align: center;
-  margin: 15px 50px 0px 50px;
-  
-  height: 50px;
-  width: 200px;
-  line-height: 50px;
-  text-decoration: none;
+.topmarg{
+	margin:50px 0 0 0;
 }
 
-a:focus{
-  
+.refBar:link,
+.refBar:visited{
+	color: black;
+	display: block;
+	text-align: center;
+
+	height: 50px;
+	width: 200px;
+	margin: 0 0 0 60px;
+	line-height: 50px;
+	text-decoration: none;
 }
 
-/*ON STATE*/
-a:hover{
+.refBar:hover{
 	color: blue;
 	background: white;
 	box-shadow: inset 0 0 5px 5px #888;
 }
 
-a:active{
-
-}
-/*link stuff*/
-
-.layoutUl{
+.clearUl{
 	list-style: none;
-	/*border: solid black;*/
-	margin: 5px 5px 5px 35px;
-	box-shadow: 10px 10px 5px #888;
-	background: white;
-
-	width: 405px;
-	height: 230px;
-	overflow: auto;
 }
 
 .container{
