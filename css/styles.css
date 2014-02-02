@@ -10,6 +10,10 @@ h1{
 h4{
 	text-align: center;
 	font-family: 'Droid Sans', sans-serif;
+
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
 }
 
 body{
@@ -18,10 +22,6 @@ body{
 
 #objlist{
 	padding: 0 0 0 15px;
-}
-
-.headder{
-
 }
 
 .topmarg{
@@ -52,7 +52,7 @@ body{
 }
 
 .center{
-
+	margin: 15px 0 0 0;
 }
 
 .container{
