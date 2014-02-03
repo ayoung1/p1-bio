@@ -23,7 +23,7 @@ body{
 }
 
 #objlist{
-	padding: 0 0 0 15px;
+	padding: 0 0 0 30px;
 }
 
 .center{
@@ -65,8 +65,8 @@ body{
 
 .roundimg {
     display: inline-block;
-    margin: 5px 5px 5px 5px;
-    padding: 10px 10px 10px 10px;
+    margin: 5px;
+    padding: 10px;
     border: solid 1px #BDBED9;
     background-color:#F5F5F8;
     box-shadow: 1px 1px 6px #888888;
@@ -78,8 +78,8 @@ body{
 }
 
 .roundimg img {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    padding: 0px;
     border-radius:6px;
     -moz-border-radius:6px;
     -webkit-border-radius:6px;
